@@ -11,6 +11,10 @@ body {
 
 .App {
     margin: 20px auto;
+    padding: 30px 0px;
+    border: 1.5px solid rgb(58, 58, 238);
+    border-radius: 5px;
+    width: 33vw;
 }
 
 
@@ -36,7 +40,8 @@ margin-right: 10vw;
 }
 
 .header-btn:hover {
-    background-color: rgb(61, 189, 221);
+    background-color: rgb(237, 243, 245);
+    color:'black';
 }
 
 /* Add Task Component */
@@ -50,7 +55,7 @@ font-size: 1.1rem;
 }
 
 .add-task input[type="text"] {
- min-width: 28vw;   
+ min-width: 28vw;
  padding: 10px 5px;
  margin-bottom: 15px;
  font-size: 1.1rem;
@@ -58,13 +63,13 @@ font-size: 1.1rem;
 
 .add-task input[type="checkbox"] {
     min-width: 28vw;
-    min-height: 5vh;   
+    min-height: 5vh;
     padding: 20px 5px;
     margin-bottom: 15px;
    }
 
    .add-task button[type="submit"] {
-    min-width: 28vw;   
+    min-width: 28vw;
     padding: 15px 5px;
     margin-bottom: 15px;
     background-color: black;
@@ -84,12 +89,12 @@ font-size: 1.1rem;
 
    .single-task .task-info{
    display: flex;
-   flex-direction: row;    
+   flex-direction: row;
    justify-content: space-between;
    }
 
    .single-task button{
-   background: none;    
+   background: none;
    border: none;
    color: red;
    cursor: pointer;
@@ -103,5 +108,5 @@ font-size: 1.1rem;
     }
 
     .active{
-    border-left: 6px solid green;    
+    border-left: 6px solid green;
     }
