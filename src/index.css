@@ -50,8 +50,58 @@ font-size: 1.1rem;
 }
 
 .add-task input[type="text"] {
- width: 28vw;   
+ min-width: 28vw;   
  padding: 10px 5px;
  margin-bottom: 15px;
  font-size: 1.1rem;
 }
+
+.add-task input[type="checkbox"] {
+    min-width: 28vw;
+    min-height: 5vh;   
+    padding: 20px 5px;
+    margin-bottom: 15px;
+   }
+
+   .add-task button[type="submit"] {
+    min-width: 28vw;   
+    padding: 15px 5px;
+    margin-bottom: 15px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1rem;
+   }
+
+   .single-task{
+    margin: 10px auto;
+    background: rgb(240, 233, 233);
+    width: 28vw;
+    padding: 15px;
+   }
+
+   .single-task .task-info{
+   display: flex;
+   flex-direction: row;    
+   justify-content: space-between;
+   }
+
+   .single-task button{
+   background: none;    
+   border: none;
+   color: red;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 1.4rem;
+   padding-top: 10px;
+   }
+
+   .single-task p{
+    text-align: start;
+    }
+
+    .active{
+    border-left: 6px solid green;    
+    }

@@ -14,6 +14,8 @@ const AddTask = () => {
                 <label>Set Reminder</label>
                 <input type="checkbox"></input>
 
+                <button type="submit">Save Task</button>
+
             </form>
         </div>
     )
